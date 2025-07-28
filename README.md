@@ -5,7 +5,7 @@ This repository contains the SQL queries used to uncover key operational insight
 ## 📁 Files Included
 
 - `data_cleaning.sql` – Queries used to clean and prepare the dataset.
-- `exploratory_analysis.sql` – Queries for insights on orders, efficiency, and promotion strategies.
+- `exploratory_analysis.sql` – Queries used to uncover insights on meal demand, center performance, and promotional impact.
 - `dashboard_screenshot.png` – Visual snapshot of Excel dashboard.
 
 ## 🔍 Key Insights
@@ -16,9 +16,14 @@ This repository contains the SQL queries used to uncover key operational insight
 - **Order spikes** in Weeks 5, 48, 53, and 60 hint at seasonal or event-driven demand. This calls for smarter forecasting and promotional alignment.
 - **Italian meals** and **Beverages** show sustained appeal, supporting a strategy that balances flagship items with volume drivers.
 
+  ## 📊 Dashboard Preview
+
+![Excel Dashboard](dashboard_screenshot.png)
+
+
 ## Documentation
 
-👉 [Read the full analysis and recommendations on Medium](#)  
+👉 [Read the full analysis and recommendations on Medium](https://medium.com/@opadojajoshua/optimizing-meal-delivery-a-strategic-analysis-0d2e637f68e3)  
 (Includes detailed thought process, reasoning behind key insights, and strategic takeaways)
 
  ## ⚠️ Data Limitations
@@ -30,7 +35,7 @@ This analysis was conducted with a few key constraints that limit certain conclu
    _🔍 Impact: Prevents accurate trend or seasonality analysis across years._
 
 2. **No Cost or Profit Margin Data Per Meal**  
-   The dataset lacked unit cost, waste, or prep time information. Margin-related assumptions (e.g., beverages are high-margin) were based on general industry knowledge.  
+   The dataset lacked true unit costs, waste data, or profit margin metrics for individual meals.  
    _🔍 Impact: Limits financial depth and confidence in promotion/profitability recommendations._
 
 3. **Absence of Delivery Timing or Delay Metrics**  
@@ -45,6 +50,8 @@ This analysis was conducted with a few key constraints that limit certain conclu
 
 ## 👤 Author
 
-Built by Joshua Opadoja  
+**Joshua Opadoja**  
 Data Analyst | Solving problems using data and code
-🔗 [LinkedIn](#) | 🔗 [X(Twitter)](#)
+ 
+ 🔗 [LinkedIn](https://www.linkedin.com/in/joshua-opadoja-5682592b5)
+ 🔗 [X(Twitter)](https://x.com/JDataCraft?t=lf1r_jM5QHj6FRG15XdNTA&s=09)
